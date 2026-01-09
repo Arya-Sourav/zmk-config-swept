@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/TooManyLs
     # - name: carrefinho
     #   url-base: https://github.com/carrefinho
-    - name: bwshockley
-      url-base: https://github.com/bwshockley
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,7 +22,7 @@ manifest:
     #   remote: carrefinho
     #   revision: core/zephyr-4-1
     - name: zmk-dongle-screen
-      remote: bwshockley
+      remote: janpfischer
       revision: main
   self:
     path: config
