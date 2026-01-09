@@ -23,6 +23,6 @@ manifest:
     #   revision: core/zephyr-4-1
     - name: zmk-dongle-screen
       remote: janpfischer
-      revision: main
+      revision: upgrade-4.1
   self:
     path: config
