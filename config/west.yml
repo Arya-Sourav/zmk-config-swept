@@ -6,10 +6,6 @@ manifest:
       url-base: https://github.com/AYM1607
     - name: TooManyLs
       url-base: https://github.com/TooManyLs
-    # - name: carrefinho
-    #   url-base: https://github.com/carrefinho
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,11 +14,8 @@ manifest:
     - name: zmk-driver-azoteq-iqs5xx
       remote: TooManyLs
       revision: main
-    # - name: prospector-zmk-module
-    #   remote: carrefinho
-    #   revision: core/zephyr-4-1
     - name: zmk-dongle-screen
-      remote: janpfischer
+      remote: TooManyLs
       revision: upgrade-4.1
   self:
     path: config

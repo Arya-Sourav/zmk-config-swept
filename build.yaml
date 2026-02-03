@@ -19,8 +19,6 @@
 #
 ---
 include:
-  # - board: xiao_ble
-  #   shield: swept_dongle prospector_adapter
   - board: xiao_ble
     shield: swept_dongle dongle_screen
     artifact-name: dongle-screen
