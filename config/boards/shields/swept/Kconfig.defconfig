@@ -6,6 +6,9 @@ if SHIELD_SOFLE_DONGLE
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
+config ZMK_KEYBOARD_NAME
+    default "Sofle"
+
 endif
 
 if SHIELD_SOFLE_LEFT || SHIELD_SOFLE_RIGHT || SHIELD_SOFLE_DONGLE 
