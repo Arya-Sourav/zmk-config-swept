@@ -1,14 +1,17 @@
 file_format: "1"
-id: swept
-name: Swept
+id: sofle
+name: Sofle
 type: shield
-url: https://github.com/toomanyls/zmk-config-swept
+url: https://github.com/josefadamcik/SofleKeyboard
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
-  - pointer
   - display
+  - encoder
+  - pointer
+  - studio
 siblings:
-  - swept_left
-  - swept_right
-  - swept_dongle
+  - sofle_left
+  - sofle_right
+  - solfe_dongle
